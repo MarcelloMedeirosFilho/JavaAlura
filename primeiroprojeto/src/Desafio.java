@@ -26,7 +26,6 @@ public class Desafio {
                 double saque = leia.nextDouble();
                 if (saque > saldo) {
                     System.out.println("Saldo Insuficiente!!");
-                    break;
                 }
                 saldo -= saque;
             } else if (opcao == 4) {
